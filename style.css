@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+[type=text],
+select,
+textarea {
+  display: block;
+  border: 1.2px solid #cdcdcd;
+  border-radius: 4px;
+  padding: .75rem;
+  outline: none;
+  background: transparent;
+  margin-bottom: .5rem;
+  font-family: inherit;
+  font-size: 1rem;
+  width: 100%;
+  max-width: 100%;
+  line-height: 1;
+}
+
+[type=text]:focus,
+select:focus,
+textarea:focus {
+  border: 1.2px solid #1781ab;
+}
+
+[type=submit],
+[type=reset],
+[type=button] {
+  -webkit-appearance: none;
+  display: inline-block;
+  background-color: #1781ab;
+  color: #ffffff;
+  width: 100%;
+  padding: .75rem 1.25rem;
+  margin: 0 0 .5rem 0;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: center;
+  text-transform: none;
+  line-height: 1;
+  border: 1px solid #1781ab;
+  border-radius: 4px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+[type=submit]:hover,
+[type=reset]:hover,
+[type=button]:hover {
+  background: #1da3d8;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+thead th {
+  border-bottom: 2px solid #dedede;
+}
+
+tfoot th {
+  border-top: 2px solid #dedede;
+}
+
+td {
+  border-bottom: 1px solid #dedede;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 0;
+}
+
+/* Styling ---------------------------------------- */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+}
+
+.title span {
+  color: #1781ab;
+}
+
+/* form -------------------------------------- */
+.submit-btn {
+  background: #1781ab;
+  color: #eeeeee;
+}
+
+form {
+  width: 500px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+form .input-group {
+  padding-bottom: 10px;
+}
+
+form .input-group label {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.delete {
+  display: block;
+  background-color: #f13723;
+  color: #eeeeee;
+  padding: .2em;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.alert {
+  padding: 1rem;
+}
+
+.alert-danger {
+  background: #f46353;
+  color: white;
+}
+
+.alert-success {
+  background: #66b366;
+  color: white;
+}
+
+.alert-warning {
+  background: orangered;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
