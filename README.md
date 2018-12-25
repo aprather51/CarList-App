@@ -4,3 +4,7 @@ Creating Car and store them into local storage. None of Javascript framework is 
 
 
 ![screenshot](Screenshot.png)
+
+Local Storage
+
+![screenshot2](Screenshot2.png)
